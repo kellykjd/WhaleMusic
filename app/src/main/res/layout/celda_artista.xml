@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:background="@color/colorPrimaryDark"
+    android:layout_margin="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/celdaArtista_imageView_foto"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/celdaArtista_textView_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="NOMBRE"
+        android:textColor="#FFF"
+        android:gravity="center"/>
+
+</LinearLayout>

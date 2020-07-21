@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#333333"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="5dp"
+    android:padding="5dp"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="TITULO"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/celdaCancion_textView_titulo"
+            android:maxLines="1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Artista"
+            android:textSize="14sp"
+            android:textColor="#BAC5CF"
+            android:id="@+id/celdaCancion_textView_artista"
+            android:autoSizeTextType="uniform"
+            android:maxLines="1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Album"
+            android:textSize="14sp"
+            android:textColor="#BAC5CF"
+            android:maxLines="1"
+            android:id="@+id/celdaCancion_textView_album"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/celdaCancion_button_playMusic"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_play_circle"/>
+
+
+</LinearLayout>

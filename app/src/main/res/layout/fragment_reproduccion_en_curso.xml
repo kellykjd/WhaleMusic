@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context=".view.FragmentReproduccionEnCurso">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:background="#222222"
+            android:drawableBottom="@drawable/esconder_icon_24dp"
+            android:layout_marginRight="210dp"
+            android:padding="15dp"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="23dp"
+            android:layout_marginLeft="50dp"
+            android:background="#222222"
+            android:drawableBottom="@drawable/triangulo" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/fragmentReproduccionEnCurso_ImageView_fotoAlbumDeCancion"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginHorizontal="10dp"/>
+
+    <TextView
+        android:id="@+id/fragmentDetalleGenero_TextView_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        tools:text="Nombre cancion"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/fragmentDetalleGenero_TextView_listaArtistas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        tools:text="Nombre artista"
+        android:gravity="center"
+        android:textColor="#BAC5CF"/>
+
+    
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#222222"
+        android:drawableBottom="@drawable/reproducir_musica_icon_24dp"/>
+
+</LinearLayout>

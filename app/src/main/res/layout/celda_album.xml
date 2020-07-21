@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="150dp"
+    android:layout_height="170dp"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center"
+    android:layout_marginVertical="5dp">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        app:cardCornerRadius="10dp"
+        android:elevation="10dp">
+
+        <ImageView
+            android:id="@+id/celdaAlbum_imageView_cover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher_round"
+            android:scaleType="centerCrop"
+            />
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/celdaAlbum_textView_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="TITULO"
+        android:textColor="#FFF"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/celdaAlbum_textView_artista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="ARTISTA"
+        android:textColor="#FFF"
+        android:gravity="center"
+        android:textSize="10sp"/>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigationButtom_inicio"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Inicio"
+        />
+
+    <item
+        android:id="@+id/navigationButtom_buscar"
+        android:icon="@drawable/ic_flare_black_24dp"
+        android:title="Buscar"
+        />
+
+    <item
+        android:id="@+id/navigationButtom_favoritos"
+        android:icon="@drawable/ic_favorite_empty"
+        android:title="Favoritos"
+        />
+</menu>

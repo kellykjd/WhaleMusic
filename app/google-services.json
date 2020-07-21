@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "273188037573",
+    "firebase_url": "https://whalemusic-87f01.firebaseio.com",
+    "project_id": "whalemusic-87f01",
+    "storage_bucket": "whalemusic-87f01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273188037573:android:59ff4e0d544d4602b821ac",
+        "android_client_info": {
+          "package_name": "com.example.whalemusic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273188037573-njnbm88am1apb777puk3fsosqh7v4f4h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS4Dtbj1PyGzUJIEJnCtjZm3X60UOq3pE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273188037573-njnbm88am1apb777puk3fsosqh7v4f4h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

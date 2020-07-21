@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".view.FragmentDetalleCancion">
+
+        <ImageView
+            android:id="@+id/fragmentDetalleCancion_ImageView_foto"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="#444"
+            android:src="@drawable/ic_music_note" />
+
+        <TextView
+            android:id="@+id/fragmentDetalleCancion_TextView_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="Nombre cancion" />
+
+        <TextView
+            android:id="@+id/fragmentDetalleCancion_TextView_artista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#BAC5CF"
+            android:textSize="20sp"
+            tools:text="Artista" />
+
+        <TextView
+            android:id="@+id/fragmentDetalleCancion_TextView_album"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#BAC5CF"
+            android:textSize="16sp"
+            tools:text="Album" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/fragmentDetalleCancion_TextView_posicionActual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#999999"
+                android:textSize="12sp"
+                android:tooltipText="00:00" />
+
+            <SeekBar
+                android:id="@+id/fragmentDetalleCancion_SeekBar"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"/>
+
+
+            <TextView
+                android:id="@+id/fragmentDetalleCancion_TextView_duracionTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#999999"
+                android:textSize="12sp"
+                android:tooltipText="00:00" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/fragmentDetalleCancion_Button_favorito"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/ic_favorite_empty"
+                android:layout_marginRight="40dp"/>
+
+            <Button
+                android:id="@+id/fragmentDetalleCancion_Button_backward"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_replay" />
+
+            <Button
+                android:id="@+id/fragmentDetalleCancion_Button_play"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/ic_play"
+                android:layout_marginHorizontal="15dp"/>
+
+            <Button
+                android:id="@+id/fragmentDetalleCancion_Button_forward"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_forward" />
+
+            <Button
+                android:id="@+id/fragmentDetalleCancion_Button_compartir"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/ic_share"
+                android:layout_marginLeft="40dp"/>
+        </LinearLayout>
+    </LinearLayout>

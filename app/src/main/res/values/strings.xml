@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WhaleMusic</string>
+
+    <string name="facebook_app_id">1442109275954745</string>
+    <string name="fb_login_protocol_scheme">fb1442109275954745</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+</resources>
+
+
